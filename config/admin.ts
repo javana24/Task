@@ -14,4 +14,10 @@ export default ({ env }) => ({
     nps: env.bool('FLAG_NPS', true),
     promoteEE: env.bool('FLAG_PROMOTE_EE', true),
   },
+  //AÑADIDO DE PRUEBA A VER SI ASI FUNCIONA
+  url: '/admin',
+  serveAdminPanel: true,
+  cookie: {
+    secure: false, 
+  },
 });
